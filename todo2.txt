@@ -1,0 +1,67 @@
+Sign in{
+	Error checks{
+		All:
+			T - Check if all fields are null
+		Username:
+			T - Check if characters are valid
+			T - Check if username has between 8 and 32 characters
+			T - Check if username has been taken
+			
+		Password:
+			T - Check if characters are valid
+			T - Check if password has between 8 and 60 characters
+			T - Check if password has atlest 1 number and 1 capital letter
+
+		Email:
+			T - Check if email is valid
+			T - Check if email has been taken
+		Class:
+			_ - Check if inserted class is valid
+
+		Class Number:
+			_ - Check if characters are valid
+			_ - Check if class number is valid
+			_ - Check if class number has been taken
+				{
+					How to do it:
+						1º Option => Use school website to verify if user is legit.
+						2º Option => Have a database with users email, and send a verify email to owners email.
+						{
+							I can send a verification email with PHPMailer (using a gmail account or a something else), with a verification link witch checks if there is a account logged into the machine by checking the cookies of the browser.
+						}
+
+				}
+
+	}
+}
+Login {
+	
+}
+
+https://flatuicolors.com/palette/defo
+
+http://php.net/manual/en/mysqli.error.php
+
+http://jsfiddle.net/3UWk2/1/
+
+https://stackoverflow.com/questions/9347966/php-jquery-how-to-use-these-two-together-please-see-my-example
+
+https://codepen.io/atelierbram/pen/gusxF
+
+
+{
+	- Nome do aluno
+	- Idade
+	- Telefone
+	- Cod do cartão de aluno
+	- Turma
+	- Nº de Turma
+	- Nome do encarregado de educação
+	- Telefone do encarregado de educação
+	- Morada
+	- Se vai ficar a noite ou n
+	- #Autorização em papel (no dia da lan mostra a autorização)
+	- Fixo ou portatil
+	- Pretende participar em torneios ou n, de sim quais.
+	
+}

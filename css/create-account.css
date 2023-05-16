@@ -1,0 +1,95 @@
+body{
+	background-color: #ccc;
+	font-family: sans-serif;
+}
+
+.create-account {
+	height: 560px;
+	width: 400px;
+	padding: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #191919;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 50px;
+
+}
+
+.create-account h2{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.create-account input[type = "text"],.create-account input[type = "password"]{
+	border: 0;
+	background: none;
+	display: block;
+	border: 2px solid #3498db;
+	margin: 20px auto;
+	text-align: center;
+	padding: 14px 10px;
+	width: 250px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	box-shadow: 0 5px 25px rgba(0,0,0,0.9);
+
+}
+
+.create-account input[type = "text"]:focus,.create-account input[type = "password"]:focus{
+	width: 300px;
+	borde-color: #9b59b6;
+}
+
+.create-account input[type = "submit"]{
+	border: 0;
+	background: none;
+	display: block;
+	border: 2px solid #9b59b6;
+	margin: 20px auto;
+	text-align: center;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+	box-shadow: 0 5px 25px rgba(0,0,0,0.9);
+}
+
+.create-account input[type = "submit"]:hover{
+	background-color: #9b59b6;
+}
+
+.create-account .school_class .choices_container select{
+	background: none;
+	padding: 10px;
+	height: 50px;
+	width: 180px;
+	border: 2px inset #3498db;
+	border-radius: 5px;
+	font-size: 20px;
+	box-shadow: 0 5px 25px rgba(0,0,0,0.9);
+	margin: 5px;
+	-webkit-appearance: button;
+	-moz-appearance: button;
+	cursor: pointer;
+	outline: none;
+	color: white;
+	text-align: center;
+}
+
+.create-account .school_class .choices_container option{
+	color: white;
+	background: #191919;
+	outline: none;
+	border: none;
+	text-align: center;
+}

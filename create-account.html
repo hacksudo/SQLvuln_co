@@ -1,0 +1,46 @@
+<html>
+<head>
+	<title>Create Account</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/styles_global.css">
+	<link rel="stylesheet" type="text/css" href="css/create-account.css">
+
+</head>
+<body>
+	<form method="post" action="create-account.php" class="create-account">
+		<h2>Registar</h2>
+	
+		<input type="text" name="username" value="" placeholder="Nome de utilizador"><p />
+		<input type="password" name="password" value="" placeholder="Palavra Pass"><p />
+		<input type="text" name="email" value="" placeholder="Email"><p />
+		<input type="text" name="student_n" value="" placeholder="Número de estudante"><p />
+
+		<div class="school_class">
+			<div class="choices_container">
+				<select id="n_year">
+					<option value="">Ano</option>
+					<option value="8">8º Ano</option>
+					<option value="9">9º Ano</option>
+					<option value="10">10º Ano</option>
+					<option value="11">11º Ano</option>
+					<option value="12">12º Ano</option>
+				</select>
+				<select id="n8_year">
+					<option>Turma</option>
+					<option value="A">A</option>
+					<option value="B">B</option>
+					<option value="C">C</option>
+					<option value="D">D</option>
+					<option value="E">E</option>
+					<option value="F">F</option>
+					<option value="H">H</option>
+					<option value="I">I</option>
+					<option value="J">J</option>
+				</select>
+			</div>
+		</div>
+		<input type="text" name="school_class_n" value="" placeholder="Número de turma">
+		<input type="submit" name="create-account" value="Registar">
+	</form>
+</body>
+</html>
